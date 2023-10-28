@@ -13,7 +13,7 @@ body {
     padding-right: 40px;
     background-color: lightslategray;
     margin: 0;
-    border: 3px solid black;
+    border-bottom: 1px solid black;
 }
 
 .header__list {
@@ -35,18 +35,18 @@ a:hover {
 }
 
 .header__btn {
-    border: 1px solid lightblue;
+    /* border: 1px solid lightblue; */
     background-color: lightgrey;
     width: 110px;
     min-height: 35px;
     cursor: pointer;
     border-radius: 5px;
-    box-shadow: 1px 1px 1px black, 1px 1px 2px black;
+    box-shadow: 1px 1px 1px black, 1px 1px 2px whitesmoke;
     text-transform: uppercase;
 }
 
 .header__btn:hover {
-    background-color: aquamarine;
+    background-color: whitesmoke;
 }
 
 .header__btn:active {
@@ -62,14 +62,14 @@ a:hover {
     gap: 40px;
     background-color: lightgray;
     justify-content: start;
-    border: 2px solid black;
+    border: none;
 
 }
 
 .ima-flex {
     display: flex;
     flex-direction: column;
-    margin-left: 100px;
+    margin-left: 50px;
     border: 3px solid grey;
     box-shadow: 3px 3px 5px;
     height: 400px;
