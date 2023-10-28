@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Pacifico";
+    /* font-style: normal;
+    font-weight: 400; */
+    /* src: local("Montserrat"),
+       url("Montserrat-Regular.woff") format("woff");  */
+    src: local("Pacifico"),
+        url("Pacifico-Regular.woff") format("woff");
+}

@@ -1,0 +1,130 @@
+body {
+    background-color: aliceblue;
+}
+
+/* top nav */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 40px;
+    background-color: lightslategray;
+    margin: 0;
+    border: 3px solid black;
+}
+
+.header__list {
+    display: flex;
+    gap: 31px;
+    list-style: none;
+    text-shadow: 1px 1px 1px lightslategray, -2px 1px 2px lightslategrey;
+}
+
+.header__link {
+    font-size: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black, -2px 1px 2px black;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.header__btn {
+    border: 1px solid lightblue;
+    background-color: lightgrey;
+    width: 110px;
+    min-height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px black, 1px 1px 2px black;
+    text-transform: uppercase;
+}
+
+.header__btn:hover {
+    background-color: aquamarine;
+}
+
+.header__btn:active {
+    background-color: darkgray;
+}
+
+/* content */
+
+.flex-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: lightgray;
+    justify-content: start;
+    border: 2px solid black;
+
+}
+
+.ima-flex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    border: 3px solid grey;
+    box-shadow: 3px 3px 5px;
+    height: 400px;
+    max-width: 300px;
+    margin-top: 30px;
+
+}
+
+.tel {
+    color: black;
+    font-size: 20px;
+}
+
+.ul-main {
+    display: flex;
+    background-color: lightgrey;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+h1,
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 900;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black, -2px 1px 2px black;
+}
+
+ul,
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 10px 5px 5px;
+    font-family: Pacifico;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 24px;
+    font-size: 24px;
+    background-color: lightslategray;
+    color: aliceblue;
+}
