@@ -33,6 +33,7 @@ a {
 }
 a:hover {
     color: #E3B873;
+    transform: scale(1.05);
     text-decoration: underline;
 }
 
@@ -78,6 +79,7 @@ li {
     gap: 31px;
     list-style: none;
     text-shadow: 1px 1px 1px lightslategray, -2px 1px 2px lightslategrey;
+    
 }
 
 .header__link {
@@ -86,8 +88,6 @@ li {
     color: aliceblue;
     text-shadow: 1px 1px 1px black, -2px 1px 2px black;
 }
-
-
 .header__btn {
     background-color: lightgrey;
     width: 110px;
@@ -98,10 +98,12 @@ li {
     text-transform: uppercase;
     border: none;
     margin-right: 62px;
+    transition: transform 0.3s ease;
 }
 
 .header__btn:hover {
     background-color: #E3B873;
+    transform: scale(1.05);
 }
 
 .header__btn:active {
@@ -135,7 +137,10 @@ li {
     height: 85%;
     margin-top: 50px;
     border: 1px solid black;
-
+    transition: transform 0.3s ease;/*увеличивает фокус*/
+}
+.ima-flex:hover {
+    transform: scale(1.05);
 }
 
 .ima-flex__image {
@@ -173,10 +178,10 @@ li {
 .ul-main {
     display: flex;
     flex-flow: column wrap;
-    gap: 30px;
+    gap: 20px;
     width: 30%;
     padding: 20px;
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 ul,
@@ -191,23 +196,19 @@ ol {
     padding: 20px;
     width: 30%;
     float: right;
-
+}
+.project__list {
+    display: flex;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+.project__list:hover {
+    transform: scale(1.05);
 }
 
 
 /* footer */
 
-/* .footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    padding: 10px 24px;
-    font-size: 24px;
-    background-color: lightskyblue;
-    color: aliceblue;
-    text-shadow: 1px 1px 1px black, -2px 1px 2px black;
-} */
 .footer {
     margin-top: 48px;
     width: 100vw;
